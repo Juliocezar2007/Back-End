@@ -18,11 +18,11 @@
 
 int idade = 16;
 string meuNome = "Julio";  
-console.Writeline($"Meu nome é {julio} e tenho {16} anos");
+Console.WriteLine($"Meu nome é {meuNome} e tenho {idade} anos");
 
-Console.Writeline("");
-Console.Writeline("Em qual cidade você nasceu");
+Console.WriteLine("");
+Console.WriteLine("Em qual cidade você nasceu");
 //ReadLine serve apenas para que eu receba ima informação do usuario
 //e armazeno em um variavel
 string nomeCidade = Console.ReadLine();
-Console.Writeline($"Você nasceu em {Andradina}");
+Console.WriteLine($"Você nasceu em {nomeCidade}");

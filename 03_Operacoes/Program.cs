@@ -43,7 +43,7 @@ else
 //operador termario
 // condição ? se verdade : senão 
 string resultado = (restoDiv2== 0) ? $"O numero {y} é par" : $"O numero {y} é impar";
-console.WriteLine(resultado);
+Console.WriteLine(resultado);
 
 
 int diaSemana = 3;
@@ -79,6 +79,7 @@ switch (diaSemana)
         break;
     default:
         Console.WriteLine("Dia invalido");
+        break;
 }
  
 

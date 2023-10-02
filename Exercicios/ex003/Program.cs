@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Digite o numero do mês:");
-int meses = int.Parse(console.ReadLine());
+int meses = int.Parse(Console.ReadLine());
 
 switch (meses)
 {
